@@ -31,7 +31,7 @@ This project implements a simple XO game (also known as Tic-Tac-Toe) using the T
 
 ## Contributors
 - Ahmed Hussein https://github.com/ahmedhussein18102002
-- Muhammad Khaled https://github.com/Muhammad-khalied
+- Muhammad Khaled https://github.com/Muhammad-Khalied
 - Ahmed Khaled https://github.com/ahmedkhaledhussien
 - Ahmed Hassan https://github.com/Ahmedhassan246
 - Eslam Nasser https://github.com/EslamNasser1
