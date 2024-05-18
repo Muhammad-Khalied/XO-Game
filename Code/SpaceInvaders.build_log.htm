@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\Labware\00-Project\SpaceInvaders.uvproj
+Project File Date:  05/17/2024
+
+<h2>Output:</h2>
+Build target 'SpaceInvaders'
+compiling SpaceInvaders.c...
+switch.h(11): warning:  #47-D: incompatible redefinition of macro "GPIO_PORTC_MIS_R" (declared at line 231 of "..//tm4c123gh6pm.h")
+  #define GPIO_PORTC_MIS_R        (*((volatile unsigned long *)0x40006018))
+switch.h(39): warning:  #47-D: incompatible redefinition of macro "GPIO_PORTA_MIS_R" (declared at line 169 of "..//tm4c123gh6pm.h")
+  #define GPIO_PORTA_MIS_R        (*((volatile unsigned long *)0x40004018))
+led.h(11): warning:  #47-D: incompatible redefinition of macro "GPIO_PORTF_MIS_R" (declared at line 708 of "..//tm4c123gh6pm.h")
+  #define GPIO_PORTF_MIS_R        (*((volatile unsigned long *)0x40025018))
+led.h(23): warning:  #47-D: incompatible redefinition of macro "SYSCTL_RCGC2_GPIOC" (declared at line 23 of "switch.h")
+  #define SYSCTL_RCGC2_GPIOC      0x00000020
+utils.h(10): warning:  #1295-D: Deprecated declaration win - give arg types
+  int win();
+utils.h(11): warning:  #1295-D: Deprecated declaration complete - give arg types
+  int complete();
+utils.h(16): warning:  #1295-D: Deprecated declaration playXO - give arg types
+  void playXO();
+utils.h(17): warning:  #1295-D: Deprecated declaration LedsEnDis - give arg types
+  void LedsEnDis();
+SpaceInvaders.c(348): warning:  #1-D: last line of file ends without a newline
+  }
+SpaceInvaders.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=6060 RO-data=872 RW-data=220 ZI-data=1716  
+".\SpaceInvaders.axf" - 0 Error(s), 9 Warning(s).
+Load "C:\\Keil\\Labware\\00-Project\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+latile unsigned long *)0x40004418))
+..//tm4c123gh6pm.h(231): warning:  #47-D: incompatible redefinition of macro "GPIO_PORTC_MIS_R" (declared at line 11 of "switch.h")
+  #define GPIO_PORTC_MIS_R        (*((volatile unsigned long *)0x40006418))
+utils.h(10): warning:  #1295-D: Deprecated declaration win - give arg types
+  int win();
+utils.h(11): warning:  #1295-D: Deprecated declaration complete - give arg types
+  int complete();
+utils.h(16): warning:  #1295-D: Deprecated declaration playXO - give arg types
+  void playXO();
+utils.h(17): warning:  #1295-D: Deprecated declaration LedsEnDis - give arg types
+  void LedsEnDis();
+led.h(11): warning:  #47-D: incompatible redefinition of macro "GPIO_PORTF_MIS_R" (declared at line 708 of "..//tm4c123gh6pm.h")
+  #define GPIO_PORTF_MIS_R        (*((volatile unsigned long *)0x40025018))
+led.h(23): warning:  #47-D: incompatible redefinition of macro "SYSCTL_RCGC2_GPIOC" (declared at line 9899 of "..//tm4c123gh6pm.h")
+  #define SYSCTL_RCGC2_GPIOC      0x00000020
+switch.c: 8 warnings, 0 errors
+compiling led.c...
+..//tm4c123gh6pm.h(708): warning:  #47-D: incompatible redefinition of macro "GPIO_PORTF_MIS_R" (declared at line 11 of "led.h")
+  #define GPIO_PORTF_MIS_R        (*((volatile unsigned long *)0x40025418))
+..//tm4c123gh6pm.h(9899): warning:  #47-D: incompatible redefinition of macro "SYSCTL_RCGC2_GPIOC" (declared at line 23 of "led.h")
+  #define SYSCTL_RCGC2_GPIOC      0x00000004  // Port C Clock Gating Control
+utils.h(10): warning:  #1295-D: Deprecated declaration win - give arg types
+  int win();
+utils.h(11): warning:  #1295-D: Deprecated declaration complete - give arg types
+  int complete();
+utils.h(16): warning:  #1295-D: Deprecated declaration playXO - give arg types
+  void playXO();
+utils.h(17): warning:  #1295-D: Deprecated declaration LedsEnDis - give arg types
+  void LedsEnDis();
+led.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=6056 RO-data=872 RW-data=220 ZI-data=1716  
+".\SpaceInvaders.axf" - 0 Error(s), 23 Warning(s).
+0020
+utils.h(10): warning:  #1295-D: Deprecated declaration win - give arg types
+  int win();
+utils.h(11): warning:  #1295-D: Deprecated declaration complete - give arg types
+  int complete();
+utils.h(16): warning:  #1295-D: Deprecated declaration playXO - give arg types
+  void playXO();
+utils.h(17): warning:  #1295-D: Deprecated declaration LedsEnDis - give arg types
+  void LedsEnDis();
+SpaceInvaders.c(347): warning:  #1-D: last line of file ends without a newline
+  }
+SpaceInvaders.c: 9 warnings, 0 errors
+"SpaceInvaders.c" - 0 Error(s), 9 Warning(s).
